@@ -1,0 +1,16 @@
+{
+    "name": "mhimon/ucsi",
+    "description": "Ultra Code Snippet Inserter",
+    "type": "project",
+    "license": "GPL",
+    "authors": [{
+        "name": "Mahbub Hasan Imon",
+        "email": "mahbubhasanimon@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": { "Inc\\": "./inc" },
+        "files": ["./inc/functions.php"]
+    }
+}
