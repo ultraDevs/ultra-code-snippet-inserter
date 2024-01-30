@@ -101,8 +101,8 @@ class Dashboard extends BaseController
                             ),
                             array( '%s', '%s', '%s', '%s', '%s', '%d')
                         );
-                        wp_redirect( admin_url( 'admin.php?page=uc-snippet' ));
-                        exit();
+                        // wp_redirect( admin_url( 'admin.php?page=uc-snippet' ));
+                        // exit();
                     }
                 }
                 require_once $this->pluginPath . 'templates/Admin/addNew.php';
